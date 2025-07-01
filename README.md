@@ -14,6 +14,8 @@
 
 •⁠  ⁠Profesor: Ing. Pablo Torres
 
+![Imagen del programa realizado
+](image.png)
 ---
 # Ejercicios de Ordenamiento con Stack en Java
 

@@ -12,7 +12,7 @@ public class App {
     }
 
     public static void runHashSet(Sets sets) {
-        System.out.println("Nombre: Dayanna Chacha");
+        System.out.println(" Nombre: Dayanna Chacha");
         System.out.println("-----------HashSet----------");
         System.out.println("ELEMENTOS DEL HASHSET(NO SE GARANTIZA EL ORDEN");
         sets.construirHashSet();  
