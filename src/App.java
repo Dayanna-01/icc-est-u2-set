@@ -13,13 +13,13 @@ public class App {
 
     public static void runHashSet(Sets sets) {
         System.out.println("-----------HashSet----------");
-        System.out.println("ELEMENTOS DEL HASHSET NO SE GARANTIZA EL ORDEN");
+        System.out.println("ELEMENTOS DEL HASHSET(NO SE GARANTIZA EL ORDEN");
         sets.construirHashSet();  
     }
 
     public static void runLinkedHashSet(Sets sets) {
         System.out.println("-----------LinkedHashSet----------");
-        System.out.println("ELEMENTOS DEL LINKEDHASHSET SE GARANTIZA EL ORDEN DE INSERCION");
+        System.out.println("ELEMENTOS DEL LINKEDHASHSET(SE GARANTIZA EL ORDEN DE INSERCION)");
         sets.construirLinkedHashSet();  
     }
 
