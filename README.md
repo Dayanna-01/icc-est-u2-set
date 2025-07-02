@@ -37,8 +37,8 @@ Para ejecutar el proyecto:
 ![Imagen del programa 1 realizado
 ](image.png)
 
-![Imagen del programa 2 realizado]
-(image-1.png)
+![Imagen del programa 2 realizado
+](image-2.png)
 ## 💻 Créditos
 
 Desarrollado como parte de ejercicios de práctica de estructuras de datos.
