@@ -34,9 +34,11 @@ Para ejecutar el proyecto:
    ```bash
    javac App.java Controller/Sets.java
 
-![Imagen del programa realizado
+![Imagen del programa 1 realizado
 ](image.png)
 
+![Imagen del programa 2 realizado]
+(image-1.png)
 ## 💻 Créditos
 
 Desarrollado como parte de ejercicios de práctica de estructuras de datos.
