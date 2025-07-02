@@ -1,57 +1,41 @@
-# Estructuras lineales
+# Práctica: Uso de Sets en Java
 
 ## 📌 Información General
 
-•⁠  ⁠Título: SETS
+- **Título:** Práctica SETS  
+- **Asignatura:** Estructura de Datos  
+- **Carrera:** Computación  
+- **Estudiante:** Janelly Dayanna Chacha Vélez
+- **Fecha:** 01-07-2025  
+- **Profesor:** Ing. Pablo Torres  
 
-•⁠  ⁠Asignatura: Estructura de Datos
+---
 
-•⁠  ⁠Carrera: Computación
+## 🛠️ Descripción
 
-•⁠  ⁠Estudiante: Janelly Dayanna Chacha Velez
+Este proyecto implementa y compara diferentes tipos de **colecciones Set en Java**, usando tanto ordenamientos naturales como personalizados. Las estructuras utilizadas son:
 
-•⁠  ⁠Fecha: 01/07/2025
+- `HashSet`: No garantiza orden.
+- `LinkedHashSet`: Mantiene el orden de inserción.
+- `TreeSet`: Ordena los elementos alfabéticamente.
+- `TreeSet` con comparador personalizado:
+  - Por longitud y orden alfabético.
+  - Por longitud descendente y orden alfabético inverso en caso de empate.
 
-•⁠  ⁠Profesor: Ing. Pablo Torres
+Se demuestra cómo cada implementación afecta la organización de los datos.
+
+---
+
+## 🚀 Ejecución
+
+Para ejecutar el proyecto:
+
+1. Compila los archivos:
+   ```bash
+   javac App.java Controller/Sets.java
 
 ![Imagen del programa realizado
 ](image.png)
----
-# Ejercicios de Ordenamiento con Stack en Java
-
-Este proyecto contiene la implementación de algoritmos para ordenar pilas (⁠ Stack<Integer> ⁠) en Java usando solo estructuras tipo pila (⁠ Stack ⁠). Los ejercicios están diseñados para practicar estructuras de datos y algoritmos sin utilizar listas, arreglos u otras colecciones.
-
----
-
-## 🧠 Ejercicio 01: Ordenar un Stack en orden ascendente
-
-Ordenar una pila de forma que los elementos más pequeños queden en el tope de la pila.  
-Se permite usar una pila adicional, pero **no se pueden usar otras estructuras de datos.
-
-### ✅ Ejemplo:
-Input:  
-⁠ (tope) 5 -> 1 -> 4 -> 2 ⁠  
-Output esperado:  
-⁠ (tope) 1 -> 2 -> 4 -> 5 ⁠
-
----
-
-## 🧠 Ejercicio 02: Ordenar un Stack en orden descendente (opcional)
-
-Ordenar la pila de forma que los elementos más grandes queden en el tope.  
-El proceso es similar al ejercicio anterior, con una simple modificación en la comparación.
-
-### ✅ Ejemplo:
-Input:  
-⁠ (tope) 5 -> 1 -> 4 -> 2 ⁠  
-Output esperado:  
-⁠ (tope) 5 -> 4 -> 2 -> 1 ⁠
-
----
-### Ejecución:
-Compila y ejecuta las clases ⁠ StackSorterAscendente ⁠ y ⁠ StackSorterDescendente ⁠ para ver el resultado.
-
----
 
 ## 💻 Créditos
 
