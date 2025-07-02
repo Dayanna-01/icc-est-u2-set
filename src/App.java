@@ -1,3 +1,4 @@
+import controllers.ContactoController;
 import controllers.Sets;
 
 public class App {
@@ -9,34 +10,37 @@ public class App {
         construirTreeSet(sets);
         construirTreeSetConComparador(sets, true);  // Ascendente
         construirTreeSetConComparador(sets, false); // Descendente
+
+        // Ejecutar ContactoController (dos listados: apellido-nombre y apellido-nombre-teléfono descendente)
+        ContactoController contactoController = new ContactoController();
     }
 
     public static void runHashSet(Sets sets) {
-        System.out.println(" Nombre: Dayanna Chacha");
-        System.out.println("-----------HashSet----------");
-        System.out.println("ELEMENTOS DEL HASHSET(NO SE GARANTIZA EL ORDEN");
+        System.out.println("\n----------- HashSet -----------");
+        System.out.println("ELEMENTOS DEL HASHSET (NO SE GARANTIZA EL ORDEN)");
         sets.construirHashSet();  
     }
 
     public static void runLinkedHashSet(Sets sets) {
-        System.out.println("-----------LinkedHashSet----------");
-        System.out.println("ELEMENTOS DEL LINKEDHASHSET(SE GARANTIZA EL ORDEN DE INSERCION)");
+        System.out.println("\n----------- LinkedHashSet -----------");
+        System.out.println("ELEMENTOS DEL LINKEDHASHSET (SE GARANTIZA EL ORDEN DE INSERCIÓN)");
         sets.construirLinkedHashSet();  
     }
 
     public static void construirTreeSet(Sets sets) {
-        System.out.println("-----------TreeSet----------");
-        System.out.println("ELEMENTOS DEL TREESET (ORDEN ASCENDENTE)");
+        System.out.println("\n----------- TreeSet -----------");
+        System.out.println("ELEMENTOS DEL TREESET (ORDEN ASCENDENTE ALFABÉTICO)");
         sets.construirTreeSet(); 
     }
 
     public static void construirTreeSetConComparador(Sets sets, boolean ascendente) {
-        System.out.println("-----------TreeSet Con Comparador----------");
+        System.out.println("\n----------- TreeSet con Comparador -----------");
         if (ascendente) {
             System.out.println("ELEMENTOS DEL TREESET CON COMPARADOR ASCENDENTE (ORDEN POR LONGITUD Y ALFABÉTICO)");
         } else {
-            System.out.println("ELEMENTOS DEL TREESET CON COMPARADOR DESCENDENTE (ORDEN POR LONGITUD Y ALFABÉTICO)");
+            System.out.println("ELEMENTOS DEL TREESET CON COMPARADOR DESCENDENTE (ORDEN POR LONGITUD Y ALFABÉTICO INVERSO)");
         }
         sets.construirTreeSetConComparador(ascendente);
     }
+
 }
