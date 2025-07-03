@@ -1,4 +1,5 @@
 import controllers.ContactoController;
+import controllers.Ejercicios;
 import controllers.Sets;
 
 public class App {
@@ -11,8 +12,11 @@ public class App {
         construirTreeSetConComparador(sets, true);  // Ascendente
         construirTreeSetConComparador(sets, false); // Descendente
 
-        // Ejecutar ContactoController (dos listados: apellido-nombre y apellido-nombre-teléfono descendente)
+        System.out.println("\n----------- Dos listados: apellido-nombre y apellido-nombre-teléfono descendente -----------");
         ContactoController contactoController = new ContactoController();
+
+        System.out.println("\n----------- Ejercicios-----------");
+        Ejercicios ejercicios = new Ejercicios();
     }
 
     public static void runHashSet(Sets sets) {
